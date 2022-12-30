@@ -5,7 +5,7 @@
 <h3><a href="https://alessandrokonrad.github.io/ethereum-funding/">Demo</a></h3>
 <p>(make sure Metamask is installed, otherwise you can't interact with the dapp)</p>
 Check smart contract for this example:
-http://use-util.cloud.milkomeda.com:4000/address/0x7ae28c580DccA503c7412CE94e844db6f75BE585/transactions
+http://use-util.cloud.milkomeda.com:4000/address/0x7B691b6a0422f9e2891d558B26faa96B69F97c8F/transactions
 
 ## Getting started
 

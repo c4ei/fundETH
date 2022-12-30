@@ -9,13 +9,13 @@ contract Funding {
     address payable owner;
 
     constructor() {
-        totalAmount = 1000 ether;
+        totalAmount = 200 ether;
         currentAmount = 0 ether;
         owner = payable(msg.sender);
     }
 
     function fund() public payable {
-        require(msg.value >= 0.1 ether, "Must be greater than 0.1 ADA");
+        require(msg.value >= 0.001 ether, "Must be greater than 0.001 ETH");
         currentAmount += msg.value;
     }
 

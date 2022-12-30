@@ -1,5 +1,5 @@
 {
-  "homepage": "https://alessandrokonrad.github.io/ethereum-funding",
+  "homepage": "https://fund.c4ei.net",
   "name": "react-app",
   "version": "0.1.0",
   "private": true,
@@ -14,7 +14,7 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
+    "start": " export PORT=4000 && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

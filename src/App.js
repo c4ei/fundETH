@@ -11,11 +11,11 @@ class App extends React.Component {
       ratio: 0,
       amount: "",
       currentAmount: 0,
-      totalAmount: 1000,
+      totalAmount: 200,
       compatible: true,
     };
     this.smartContractUrl =
-      "http://use-util.cloud.milkomeda.com:4000/address/0x7ae28c580DccA503c7412CE94e844db6f75BE585/transactions";
+      "https://exp.c4ei.net/account/0x7B691b6a0422f9e2891d558B26faa96B69F97c8F";
   }
 
   render() {
@@ -24,12 +24,12 @@ class App extends React.Component {
         <div className={styles.bg}>
           <div className={styles.card} style={{ width: "50%", height: "50%" }}>
             <h1>Crowdfunding </h1>
-            <h3 style={{ marginTop: -8 }}>Milkomeda</h3>
+            <h3 style={{ marginTop: -8 }}>c4ei.net</h3>
             <div className={styles.container}>
               <div style={{ width: "60%", flex: 3, marginLeft: "20px" }}>
                 <h3>
-                  {this.state.currentAmount.toLocaleString()} ADA raised of{" "}
-                  {this.state.totalAmount.toLocaleString()} ADA
+                  {this.state.currentAmount.toLocaleString()} ETH raised of{" "}
+                  {this.state.totalAmount.toLocaleString()} ETH
                 </h3>
                 <div className={styles.back}>
                   <div
@@ -45,7 +45,7 @@ class App extends React.Component {
                     this.setState({ amount: event.target.value })
                   }
                   value={this.state.amount}
-                  placeholder="Ada amount"
+                  placeholder="ETH amount"
                   height="30px"
                   width="150px"
                 />
@@ -118,7 +118,7 @@ const NotCompatible = () => {
         <div style={{ margin: "0 20px" }}>
           <img
             src="http://airdrop-review.com/wp-content/uploads/2018/05/metamask.png"
-            width="100%"
+            width="100%" alt="metamask"
           ></img>
         </div>
       </a>
