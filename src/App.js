@@ -15,7 +15,7 @@ class App extends React.Component {
       compatible: true,
     };
     this.smartContractUrl =
-      "https://exp.c4ei.net/account/0x7B691b6a0422f9e2891d558B26faa96B69F97c8F";
+      "https://etherscan.io/address/0x7B691b6a0422f9e2891d558B26faa96B69F97c8F";
   }
 
   render() {
@@ -24,7 +24,7 @@ class App extends React.Component {
         <div className={styles.bg}>
           <div className={styles.card} style={{ width: "50%", height: "50%" }}>
             <h1>Crowdfunding </h1>
-            <h3 style={{ marginTop: -8 }}>c4ei.net</h3>
+            <h3 style={{ marginTop: -8 }}>fund.c4ei.net</h3>
             <div className={styles.container}>
               <div style={{ width: "60%", flex: 3, marginLeft: "20px" }}>
                 <h3>

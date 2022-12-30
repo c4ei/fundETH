@@ -3,7 +3,7 @@ import Web3 from "web3";
 
 var web3;
 var contract;
-const contractAddress = "0x7B691b6a0422f9e2891d558B26faa96B69F97c8F";
+const contractAddress = "0x2383d2Ec72F49c75EB487B19c9b8b32ED9Ed50BD";
 
 const checkCompatible = async () => {
   // Modern dapp browsers...
